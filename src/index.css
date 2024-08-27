@@ -2,12 +2,24 @@
 
 body{
   font-family: "Raleway", sans-serif;
-  background-image: url("./assests/background-bike.jpg");
+  background-image: url("./assests/biker.jpg");
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  width: 100vw;
+  background-repeat: no-repeat;
+  
 }
 
+ul li a {
+  color: #000;
+}
+
+
+ul li a:hover {
+  color: #00a8ff;
+}
+
+ul li a.active {
+  color: #00a8ff;
+}
