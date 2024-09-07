@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-body{
+body {
   font-family: "Raleway", sans-serif;
   background-image: url("./assests/biker.jpg");
   background-size: cover;
@@ -8,11 +8,23 @@ body{
   justify-content: center;
   align-items: center;
   background-repeat: no-repeat;
-  
+
 }
 
-ul li a {
-  color: #000;
+ul.top-menu {
+  gap: 1.1rem;
+  list-style: none;
+  margin-top: 1rem;
+  padding: 0;
+  width: 100%;
+  display: flex; 
+}
+
+ul.top-menu li a {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  text-decoration: none;
 }
 
 

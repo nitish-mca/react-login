@@ -3,7 +3,7 @@ import './../index.css'
 export default function NavBar() {
     return (
         <nav>
-            <ul>
+            <ul class="top-menu">
                 <li>
                     <NavLink to="/" className={({ isActive }) => {
                         return isActive ? "active-link" : "";
